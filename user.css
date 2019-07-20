@@ -1,0 +1,101 @@
+#mainDiv {
+    height: 100vh;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    overflow: scroll;
+}
+
+#profileDiv {
+    background-color: #ffffff;
+    padding: 10px;
+    height: 88%;
+}
+
+#username {
+    font-size: 35px;
+}
+
+#posts {
+    padding: 10px;
+    padding-top: 20px;
+    border: #143642;
+    border-bottom: 1px strong;
+}
+
+#change_user {
+    font-size: 15px !important;
+    border-bottom: transparent;
+}
+
+#change_pass {
+    font-size: 15px !important;
+    border-bottom: transparent;
+}
+
+.post {
+    padding: 15px;
+    border: #143642;
+    border-bottom: 0.25px solid;
+}
+
+.category {
+    font-size: 15px !important;
+    padding: 10px;
+    float: right;
+}
+
+div {
+    width: 100%;
+}
+
+#PostName {
+    font-size: 17px !important;
+    font-weight: 500;
+}
+
+#author_info {
+    font-size: 12px !important;
+}
+
+#post_info {
+    vertical-align: middle;
+}
+
+#search {
+    width: 20%;
+}
+
+label {
+    color: #143642;
+    font-size: 15px !important;
+    font-family: 'Open Sans', sans-serif;
+    display: inline-block;
+}
+
+form {
+    font-size: 15px !important;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn {
+    background-color: #ffffff !important;
+    font-size: 20px !important;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+    display: block;
+    border: #143642;
+    border: 2px solid;
+    padding: 14px 28px;
+    margin-top: 30px;
+}
+
+nav .navbar-nav li a {
+    color: #143642 !important;
+    font-size: 23px !important;
+    font-family: 'Open Sans', sans-serif;
+    border-bottom: #143642;
+    border-bottom: 1.25px solid;
+}

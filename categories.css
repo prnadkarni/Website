@@ -1,0 +1,76 @@
+#mainDiv {
+    height: 100vh;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    overflow: scroll;
+}
+
+#logInDiv {
+    background-color: #ffffff;
+    padding: 5px;
+    height: 88%;
+}
+
+.category {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    border: #143642;
+    border-bottom: 0.25px solid;
+}
+
+#category_number {
+    font-size: 13px !important;
+    padding: 8px;
+    float: right;
+    margin-right: 10px;
+}
+
+#category_name {
+    font-size: 15px !important;
+    font-weight: 500;
+}
+
+#post_info {
+    vertical-align: middle;
+}
+
+#search {
+    width: 20%;
+    padding: 20px;
+}
+
+label {
+    color: #143642;
+    font-size: 15px !important;
+    font-family: 'Open Sans', sans-serif;
+    display: inline-block;
+}
+
+form {
+    font-size: 15px !important;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn {
+    background-color: #ffffff !important;
+    font-size: 20px !important;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+    display: block;
+    border: #143642;
+    border: 2px solid;
+    padding: 14px 28px;
+    margin-top: 30px;
+}
+
+nav .navbar-nav li a {
+    color: #143642 !important;
+    font-size: 23px !important;
+    font-family: 'Open Sans', sans-serif;
+    border-bottom: #143642;
+    border-bottom: 1.25px solid;
+}

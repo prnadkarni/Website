@@ -1,0 +1,63 @@
+#mainDiv {
+    height: 100vh;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    overflow: scroll;
+}
+
+#postAttributesBar {
+    background-color: #EBE8E8;
+    color: #143642;
+    font-size: 16px !important;
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px;
+    margin-bottom: 1%;
+    height: 15%;
+}
+
+#pBarCategories {
+    margin-left: 45%;
+    margin-right: 5%;
+}
+
+#postDiv {
+    background-color: #143642;
+    padding: 10px;
+    margin-top: 1%;
+    text-align: center;
+    height: 90%;
+}
+
+#postBox {
+    margin-top: 3%
+}
+
+#buttons {
+    margin-top: 2%;
+}
+
+p {
+    padding: 10px;
+}
+
+.btn {
+    background-color: #ffffff !important;
+    font-size: 20px !important;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+    display: block;
+    border: #143642;
+    border: 2px solid;
+    padding: 14px 28px;
+}
+
+nav .navbar-nav li a {
+    color: #143642 !important;
+    font-size: 23px !important;
+    font-family: 'Open Sans', sans-serif;
+    border-bottom: #143642;
+    border-bottom: 1.25px solid;
+}

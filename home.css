@@ -1,0 +1,57 @@
+#mainDiv {
+    height: 100vh;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    overflow: scroll;
+}
+
+#postsDiv {
+    height: 100vh;
+    background-color: #143642;
+}
+
+#bigMainMessage {
+    color: #143642 !important;
+    font-size: 50px !important;
+    font-family: 'Open Sans', sans-serif;
+    font-display: bold;
+}
+
+#smallMainMessage {
+    color: #143642 !important;
+    font-size: 20px !important;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#messageDiv {
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 50px;
+    padding: 10px;
+}
+
+p {
+    padding: 10px;
+}
+
+.btn {
+    background-color: #ffffff !important;
+    font-size: 20px !important;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+    display: block;
+    border: #143642;
+    border: 2px solid;
+    padding: 14px 28px;
+}
+
+nav .navbar-nav li a {
+    color: #143642 !important;
+    font-size: 23px !important;
+    font-family: 'Open Sans', sans-serif;
+    border-bottom: #143642;
+    border-bottom: 1.25px solid;
+}

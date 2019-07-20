@@ -1,0 +1,106 @@
+#mainDiv {
+    height: 100vh;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    overflow: scroll;
+}
+
+div.scrollmenu {
+    background-color: #ffffff;
+    overflow: auto;
+    width: 100%;
+    margin: 0px;
+    direction: ltr;
+    white-space: nowrap;
+}
+
+div.scrollmenu a {
+    display: inline-block;
+    color: #143642;
+    direction: rtl;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    padding: 14px;
+    text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+    background-color: #EBE8E8;
+}
+
+#logInDiv {
+    background-color: #ffffff;
+    padding: 10px;
+    height: 88%;
+}
+
+.post {
+    padding: 15px;
+}
+
+.category {
+    font-size: 15px !important;
+    padding: 10px;
+    float: right;
+}
+
+div {
+    width: 100%;
+}
+
+.post {
+    border: #143642;
+    border-bottom: 0.25px solid;
+}
+
+#PostName {
+    font-size: 17px !important;
+    font-weight: 500;
+}
+
+#author_info {
+    font-size: 12px !important;
+}
+
+#post_info {
+    vertical-align: middle;
+}
+
+#search {
+    width: 20%;
+}
+
+label {
+    color: #143642;
+    font-size: 15px !important;
+    font-family: 'Open Sans', sans-serif;
+    display: inline-block;
+}
+
+form {
+    font-size: 15px !important;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn {
+    background-color: #ffffff !important;
+    font-size: 20px !important;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 auto;
+    display: block;
+    border: #143642;
+    border: 2px solid;
+    padding: 14px 28px;
+    margin-top: 30px;
+}
+
+nav .navbar-nav li a {
+    color: #143642 !important;
+    font-size: 23px !important;
+    font-family: 'Open Sans', sans-serif;
+    border-bottom: #143642;
+    border-bottom: 1.25px solid;
+}
