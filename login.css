@@ -65,3 +65,10 @@ nav .navbar-nav li a {
     border-bottom: #143642;
     border-bottom: 1.25px solid;
 }
+
+.mainbox {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
