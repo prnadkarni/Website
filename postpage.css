@@ -15,12 +15,13 @@
     font-family: 'Open Sans', sans-serif;
     padding: 10px;
     margin-bottom: 1%;
-    height: 15%;
+    height: 12%;
 }
 
 #pBarCategories {
-    text-align: right;
-    margin-right: 2%;
+    text-align: left;
+    margin-right: 10px;
+    padding: 30px;
 }
 
 #postDiv {
@@ -31,7 +32,7 @@
 }
 
 #postBox {
-    margin-top: 3%
+    margin-top: 3%;
 }
 
 #buttons {
@@ -43,9 +44,15 @@
     margin-top: 5%;
     color: #ffffff;
     background-color: #143642;
-    font-size: 16px !important;
+    font-size: 20px !important;
     font-family: 'Open Sans', sans-serif;
     padding: 10px;
+}
+
+.bar {
+    border: #143642;
+    border-bottom: 0.25px solid;
+    padding: 15px;
 }
 
 p {
@@ -65,8 +72,16 @@ p {
 
 .flex-container {
     display: flex;
+    flex-direction: row;
     align-items: center;
-    justify-content: flex-end;
+    justify-content: flex-start;
+}
+
+.secondflex {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    align-items: center;
 }
 
 nav .navbar-nav li a {
