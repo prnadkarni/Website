@@ -33,6 +33,33 @@
     padding: 10px;
 }
 
+#author_info {
+    font-size: 12px !important;
+}
+
+#post_info {
+    vertical-align: middle;
+}
+
+.post {
+    border: #143642;
+    border-bottom: 0.25px solid;
+    padding: 15px;
+}
+
+.category {
+    font-size: 15px !important;
+    padding: 10px;
+    float: right;
+}
+
+#topPosts {
+    background-color: #143642 !important;
+    height: 20%;
+    font-size: 16px !important;
+    font-family: 'Open Sans', sans-serif;
+}
+
 p {
     padding: 10px;
 }
@@ -54,4 +81,11 @@ nav .navbar-nav li a {
     font-family: 'Open Sans', sans-serif;
     border-bottom: #143642;
     border-bottom: 1.25px solid;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
