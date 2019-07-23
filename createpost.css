@@ -4,7 +4,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
+    background-size: 100%;
     overflow: scroll;
 }
 
@@ -21,6 +21,20 @@
 #pBarCategories {
     margin-left: 45%;
     margin-right: 5%;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.secondflex {
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    align-items: center;
 }
 
 #postDiv {
