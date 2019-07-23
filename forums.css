@@ -104,3 +104,9 @@ nav .navbar-nav li a {
     border-bottom: #143642;
     border-bottom: 1.25px solid;
 }
+
+.flexbox {
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+}
