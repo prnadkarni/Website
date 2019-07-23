@@ -4,7 +4,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: center;
+    background-size: cover;
     overflow: scroll;
 }
 
@@ -67,6 +67,12 @@ nav .navbar-nav li a {
     margin-left: 100px;
     margin-top: 80px;
     font-family: 'Open Sans', sans-serif;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #aboutus_span {}
